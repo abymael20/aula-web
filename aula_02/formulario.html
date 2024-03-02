@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Formulario Cardápio</title>
+    <link href="form.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <h1>Formulario Cardápio</h1>
+</body>
+
+<body> 
+    <form>
+            <fieldset>
+              <legend> Informações do cliente</legend>
+              <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome"
+                placeholder="Digite seu nome"><br>
+                <label for="numPessoas">Numero de pessoas: </label>
+                <input type="text" id="numPessoas" name="numPessoas"
+                placeholder="Digite a quantidade de pessoas"><br>
+                <label for="numTel">Numero para contato: </label>
+                <input type="text" id="numTel" name="numTel"
+                placeholder="(99)9999-9999"><br>
+            </fieldset>
+    </form>
+</body>
+
+<body> 
+    <form>
+            <fieldset>
+              <legend> Horário da reserva </legend>
+                <input type="radio" id="almoco" name="horario" value="Almoco">
+                <label for="almoco">Almoço</label><br>
+                <input type="radio" id="jantar" name="horario" value="jantar">
+                <label for="jantar">Jantar</label>
+            </fieldset>
+    </form>
+</body>
+
+<body> 
+    <form>
+            <fieldset>
+              <legend> Preferências dietéticas </legend>
+                <input type="radio" id="carne" name="dietica" value="carne">
+                <label for="carne">Com Carne</label><br>
+                <input type="radio" id="carne_muita" name="dietica" value="carne_muita">
+                <label for="carne_muita">Com muita Carne</label>
+            </fieldset>
+    </form>
+</body>
+
+<body> 
+    <form>
+            <fieldset>
+              <legend> Pratos </legend>
+              <p><u> Entradas </u></p>
+                <input type="radio" id="frita" name="entrada" value="frita">
+                <label for="frita">batata frita</label><br>
+                <input type="radio" id="salada" name="entrada" value="salada">
+                <label for="salada">saladinha</label><br>
+                <input type="radio" id="bacalhau" name="entrada" value="bacalhau">
+                <label for="bacalhau">bolinho de bacalhau</label><br>
+                <p><u> Pratos principais </u></p>
+                <input type="radio" id="pricarne" name="principal" value="pricarne">
+                <label for="pricarne">tabua de carne</label><br>
+                <input type="radio" id="carbonara" name="principal" value="carbonara">
+                <label for="carbonara">carbonara</label><br>
+                <input type="radio" id="moranga" name="principal" value="moranga">
+                <label for="moranga">camarão na moranga</label><br>
+                <p><u> Acompanhamentos </u></p>
+                <input type="radio" id="feijao" name="acompanha" value="feijao">
+                <label for="feijao">Feijão</label><br>
+                <input type="radio" id="branco" name="acompanha" value="branco">
+                <label for="branco">molho branco</label><br>
+                <p><u> Sobremesa </u></p>
+                <input type="radio" id="sagu" name="Sobremesa" value="sagu">
+                <label for="sagu">Sagu</label><br>
+                <input type="radio" id="Sorvete" name="Sobremesa" value="Sorvete">
+                <label for="Sorvete">Sorvete</label><br>
+                <input type="radio" id="acai" name="Sobremesa" value="acai">
+                <label for="acai">Açai</label><br>
+            </fieldset>
+    </form>
+</body>
+
+<body> 
+    <form>
+            <fieldset>
+              <legend> Bebidas </legend>
+                <input type="radio" id="Coca" name="Bebidas" value="Coca">
+                <label for="Coca">Coca-Cola</label><br>
+                <input type="radio" id="Suco" name="Bebidas" value="Suco">
+                <label for="Suco">Suco Natural</label><br>
+                <input type="radio" id="Batita" name="Bebidas" value="Batita">
+                <label for="Batita">Batita</label>
+            </fieldset>
+    </form>
+</body>

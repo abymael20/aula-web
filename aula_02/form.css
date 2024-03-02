@@ -1,0 +1,12 @@
+body {
+
+    /** Muda a cor do fundo da página **/
+    background-color: rgb(67, 144, 163);
+
+        /** Fonte **/
+        font-family: Fantasy, Helvetica, sans-serif; 
+
+        /** Margem zerada **/
+        margin: 10;
+}
+
